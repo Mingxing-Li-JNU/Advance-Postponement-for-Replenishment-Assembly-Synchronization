@@ -1,2 +1,2 @@
-# MMFE-Based-Stochastic-Replenishment-Dataset
+# Dataset of Operationalizing Advance-Postponement for Replenishment-Assembly Synchronization in VMI-ATO Systems under Demand-Forecast Evolution
 A synthetic multi-period, multi-scenario benchmark dataset designed for the AP replenishment optimization problem in the VMI-ATO system. This dataset is generated using rolling MMFE-style demand forecasting and conditional scenario sampling. The public benchmark instances published in this repository use 15 products, 80 materials/components, 8 decision periods, 8 scenarios for each decision period, and a rolling forecasting horizon of 3 periods. This dataset is suitable for evaluating stochastic replenishment, inventory control, and AP-based optimization algorithms such as MAGA.
