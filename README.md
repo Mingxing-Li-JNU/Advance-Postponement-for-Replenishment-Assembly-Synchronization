@@ -4,11 +4,11 @@ A synthetic multi-period, multi-scenario benchmark dataset designed for the adva
 
 ## Dataset Structure
 
-The dataset is organized as a series of Excel workbooks. The released files are organized as eight Excel workbooks, each corresponding to one rolling decision period. Each workbook contains scenario demand forecast sheets, the product-component relationship sheet, and actual demand information. The first workbook also contains global parameter sheets such as `INV`, `CV`, `PC`, `SHC`, `pro`, and `mad`. From the second workbook onward, rolling-state sheets such as `ASC{k}`, `AZ{k}`, and `X{k}` are included to support state transfer between consecutive rolling decision periods.
+The released files are organized as eight Excel files, each corresponding to one rolling decision period. Each Excel file contains scenario demand forecast sheets, the product-component relationship sheet, and actual demand information. The first Excel file also contains global parameter sheets such as `INV`, `CV`, `PC`, `SHC`, `pro`, and `mad`. From the second Excel file onward, rolling-state sheets such as `ASC{k}`, `AZ{k}`, and `X{k}` are included to support state transfer between consecutive rolling decision periods.
 
 For a given decision period t, each scenario sheet represents one possible demand-forecast path generated under the MMFE-based rolling forecasting mechanism. Each scenario covers the current decision period and the next three forecast periods. Therefore, the rolling window contains four periods in total: the current period plus a 3-period look-ahead horizon.
 
-The sheet descriptions below apply generally across the benchmark workbooks. Some sheets contain global parameters or global demand information, while others contain period-specific rolling states. Their meanings remain consistent across workbooks.
+The sheet descriptions below apply generally across the Excel files. Some sheets contain global parameters or global demand information, while others contain period-specific rolling states. Their meanings remain consistent across workbooks.
 
 ## Sheet Descriptions
 
